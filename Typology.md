@@ -1,7 +1,12 @@
 # Trump News Article Typology
 
 ## Motivation & Context
-This typology exists to systematically categorize news articles related to Donald Trump. With the vast volume of media coverage spanning legal proceedings, political actions, personal behavior, and family or corporate entities, consistent categorization allows researchers, journalists, and analysts to:  
+To achieve the goal of using data science to better understand how Donald Trump is covered in the media, we have developed the following typology. We are especially concerned with coverage in North America. This typology is specifically designed to address two main questions:
+
+1. Whether the coverage is positive or negative.
+2. What topics the coverage focuses on.
+
+With the vast volume of media coverage spanning legal proceedings, political actions, personal behavior, and family or corporate entities, consistent categorization allows researchers, journalists, and analysts to:  
 
 - **Maintain clarity** on article focus.  
 - **Enable quantitative analyses** of coverage trends.  
