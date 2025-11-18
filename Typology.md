@@ -14,7 +14,6 @@ With the vast volume of media coverage spanning legal proceedings, political act
 
 By defining clear categories, we reduce ambiguity and ensure that analyses of media coverage are both replicable and meaningful.
 
----
 
 ## Overview of Types
 This typology divides Trump-related news into six mutually exclusive types. Each type represents a distinct focus, though real-world articles can occasionally straddle categories.  
@@ -28,7 +27,6 @@ This typology divides Trump-related news into six mutually exclusive types. Each
 | 5 | Public reactions | Responses from the general public, NGOs, celebrities, civil society |
 | 6 | Trump-adjacent individuals & entities | Family members, relatives, Trump-related organizations |
 
----
 
 ## Typology Details
 
@@ -51,7 +49,6 @@ Articles primarily covering legal processes involving Trump, including charges, 
 
 **Rule:** Include when legal processes are the primary subject; exclude when focus is political, public, or media reactions.
 
----
 
 ### **TYPE 2 — Political Entity Relations**
 **Definition:**  
@@ -74,7 +71,6 @@ Articles about how political actors (parties, elected officials, candidates, for
 
 **Rule:** Include when focus is on political entities’ responses; exclude articles centered on policies (Type 4) or public reactions (Type 5).
 
----
 
 ### **TYPE 3 — Trump’s Personal Actions**
 **Definition:**  
@@ -96,7 +92,6 @@ Articles covering Trump’s private, non-governmental actions, behaviors, remark
 
 **Rule:** Include when core subject is personal behavior or public reactions to it; exclude official political authority or policy content.
 
----
 
 ### **TYPE 4 — Policies & Political Actions Under Trump**
 **Definition:**  
@@ -119,7 +114,6 @@ Articles about Trump’s governmental or official political actions: policies, e
 
 **Rule:** Include when central focus is official political/government action or reactions to it.
 
----
 
 ### **TYPE 5 — Public Reactions**
 **Definition:**  
@@ -142,7 +136,6 @@ Articles about how non-political actors—general public, celebrities, NGOs, uni
 
 **Rule:** Include when primary subject is reactions by non-politicians or non-government entities.
 
----
 
 ### **TYPE 6 — Trump-Adjacent Individuals & Entities**
 **Definition:**  
@@ -167,7 +160,6 @@ Articles primarily focused on family members, relatives, or organizations closel
 
 **Rule:** Use Type 6 when primary subject is family, relative, or Trump-affiliated organization.
 
----
 
 ## Comprehensiveness
 This typology is designed to comprehensively cover all major aspects of Trump-related news, ensuring every article can be assigned a primary type without overlap or ambiguity. Key points:  
