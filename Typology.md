@@ -64,7 +64,6 @@ Articles about how political actors (parties, elected officials, candidates, for
 
 **Rule:** Include when focus is on political entities’ responses; exclude articles centered on policies (Type 4) or public reactions (Type 5).
 
----
 
 ### **TYPE 3 — Trump’s Personal Actions**
 **Definition:**  
