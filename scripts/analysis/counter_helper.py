@@ -9,23 +9,20 @@ def get_uuid_and_sources_dicts():
     uuid_dict = {}
     sources = {}
 
-    str_json = ""
-    with open ('./Comp370_final_project/data/stratified_sampling/annotated_full_article_corpus.json', 'r') as f:
-        str_json = f.read()
-        f.close()
-
-    data = json.loads(str_json)
+    with open('./Comp370_final_project/data/stratified_sampling/annotated_full_article_corpus.json', 'r') as f:
+        data = json.load(f)
 
     for j in data:
-        if not (j['source'] in sources):
-            sources[j['source']] = {}
-            sources[j['source']]['types_counts'] = {}
-            sources[j['source']]['perception_counts'] = {}
+        src = j['source']
+        if src not in sources:
+            sources[src] = {
+                'types_counts': {},
+                'perception_counts': {}
+            }
 
-        uuid_dict[j['uuid']] = \
-        {
-            'date' : j ['date'],
-            'source' : j ['source']
+        uuid_dict[j['uuid']] = {
+            'date': j['date'],
+            'source': src
         }
 
     return uuid_dict, sources
@@ -43,21 +40,21 @@ def count_types_and_perception(df, custom_condition=lambda row: True):
         if row['coding'] in perception_dict:
             perception_dict[row['coding']] += 1
         else:
-            perception_dict[row['coding']] = 0
+            perception_dict[row['coding']] = 1
 
-        if row['type'] in perception_dict:
+        if row['type'] in type_dict:
             type_dict[row['type']] += 1
         else:
-            type_dict[row['type']] = 0
+            type_dict[row['type']] = 1
         
     return type_dict, perception_dict
 
 # count per source
 def count_perception_and_type_per_source(df, source, uuid_dict):
 
-    count_types_and_perception(
+    return count_types_and_perception(
         df, 
-        custom_condition=lambda row: 
+        custom_condition=lambda row: (
             # if the entry with uuid row['uuid']'s source is the same as the source we want
             # then we count it
             uuid_dict[row['uuid']]['source'] == source
@@ -68,3 +65,4 @@ def count_perception_and_type_per_source(df, source, uuid_dict):
             # it's too late to go back and change the csv without breaking it
             # since i'm already done with my second coding
         )
+    )
